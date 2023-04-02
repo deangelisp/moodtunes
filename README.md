@@ -25,8 +25,8 @@ VITE_SPOTIFY_CLIENT_SECRET=<YOUR_SPOTIFY_CLIENT_SECRET>
 To run this project, install it locally using npm:
 
 ```bash
-$ git clone https://github.com/your_username/MoodTunes.git
-$ cd MoodTunes
+$ git clone https://github.com/deangelisp/moodtunes.git
+$ cd moodtunes
 $ npm install
 $ npm start
 ```
