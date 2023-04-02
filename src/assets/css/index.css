@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #2c1947;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.shadow-blur {
+    box-shadow: 0px 5px 14px 0px rgb(0 0 0 / 40%);
+}
+
+.playlist-display {
+    /* create a colofull background gradiente using green blue purple  */
+    background: linear-gradient(45deg, #1db954, #66ccff, #cc33ff);
+}
+
+.playlist-display.neutral {
+    background: linear-gradient(
+        45deg,
+        #a79898,
+        #a79898 22%,
+        #cbb8b8 25%,
+        #cbb8b8 48%,
+        #a79898 50%,
+        #a79898 71%,
+        #cbb8b8 75%,
+        #cbb8b8
+    );
+}
+
+.playlist-display.radiant {
+    background: linear-gradient(45deg, #ffd700, #ff8c00, #ff4500);
+}
+
+.playlist-display.gloomy {
+    background: linear-gradient(45deg, #2f4f4f, #36454f, #808080);
+}
+
+.playlist-display.joyful {
+    background: linear-gradient(45deg, #32cd32, #7cfc00, #3cb371);
+}
+
+.playlist-display.reflective {
+    background: linear-gradient(45deg, #8b008b, #551a8b, #2e8b57);
+}
+
+.playlist-display.energetic {
+    background: linear-gradient(45deg, #dbca0e, #e38901, #ffe23a);
+}
+
+.playlist-display.happy {
+    background: linear-gradient(45deg, #ffd700, #ffff00, #adff2f);
+}
+
+.playlist-display.calm {
+    background: linear-gradient(45deg, #00bfff, #1e90ff, #4682b4);
+}
+
+.playlist-display.melancholic {
+    background: linear-gradient(45deg, #708090, #778899, #c0c0c0);
+}
+
+.playlist-display.optimistic {
+    background: linear-gradient(45deg, #ffa07a, #ff7f50, #e9967a);
+}
+
+.playlist-display.bittersweet {
+    background: linear-gradient(45deg, #9370db, #9932cc, #9400d3);
+}
+
+.playlist-display.serene {
+    background: linear-gradient(45deg, #ff69b4, #ff6eb4, #ffa07a);
+}
+
+.playlist-display.nostalgic {
+    background: linear-gradient(45deg, #8b4513, #a0522d, #cd853f);
+}
+
+.playlist-display.joyful {
+    background: linear-gradient(45deg, #32cd32, #7cfc00, #3cb371);
+}
+
+.playlist-display.reflective {
+    background: linear-gradient(45deg, #8b008b, #551a8b, #2e8b57);
+}
+
+.playlist-display.angry {
+    background: linear-gradient(45deg, #b22222, #8b0000, #a52a2a);
+}
+
+.playlist-display.emo {
+    background: linear-gradient(45deg, #252325, #480041, #240101);
+}
+
+.playlist-display.serene {
+    background: linear-gradient(45deg, #ffa9da, #ff9b70, #ffa9a9);
+}
+
+.playlist-image {
+    box-shadow: 0px 5px 14px 0px rgb(0 0 0 / 40%);
+}
